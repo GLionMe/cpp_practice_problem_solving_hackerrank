@@ -37,7 +37,7 @@ int main()
             y += checkSmallestDif(f,c);
         }
 
-        cout << "Case #" << t-(t-1) << ": " << y << "\n";
+        cout << "Case #" << count << ": " << y << "\n";
         t--;
         count++;
     }
